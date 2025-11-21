@@ -1,0 +1,29 @@
+{
+  "name": "chainresume-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "genabi": "node scripts/genabi.mjs"
+  },
+  "dependencies": {
+    "@zama-fhe/relayer-sdk": "^0.3.0-5",
+    "clsx": "^2.1.1",
+    "ethers": "^6.9.0",
+    "idb": "^8.0.3",
+    "next": "^14.2.5",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@fhevm/mock-utils": "^0.3.0-1",
+    "@types/react": "19.2.4",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.10",
+    "typescript": "^5.4.5"
+  }
+}
